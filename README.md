@@ -1,16 +1,17 @@
-# AI Pocket Lawyer 🤖⚖️
+# AI Pocket Lawyer
+
 
 An AI-powered desktop application that provides accessible legal assistance to common users. Built with Java Swing, JDBC, and MySQL.
 
-## 📋 Overview
+## Overview
 
 AI Pocket Lawyer is a comprehensive legal assistance platform designed to bridge the gap between everyday users and professional legal help. It offers:
 
-- **🤖 AI Legal Chatbot**: Intelligent Q&A system for instant legal guidance
-- **📄 Document Generator**: Create legal documents (rental agreements, wills, complaint letters)
-- **⚖️ Legal Rights Hub**: Searchable knowledge base of legal rights by category
+- ** AI Legal Chatbot**: Intelligent Q&A system for instant legal guidance
+- ** Document Generator**: Create legal documents (rental agreements, wills, complaint letters)
+- ** Legal Rights Hub**: Searchable knowledge base of legal rights by category
 
-## ✨ Features
+## Features
 
 ### 1. Legal Q&A Chatbot
 - AI-powered responses using hybrid matching algorithm
@@ -38,7 +39,7 @@ AI Pocket Lawyer is a comprehensive legal assistance platform designed to bridge
 - Detailed explanations with legal sources
 - Easy-to-understand language
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Language**: Java 11+
 - **UI Framework**: Java Swing
@@ -51,7 +52,7 @@ AI Pocket Lawyer is a comprehensive legal assistance platform designed to bridge
   - Gson (JSON processing)
   - SLF4J (Logging)
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before running the application, ensure you have:
 
@@ -70,7 +71,7 @@ Before running the application, ensure you have:
    mysql --version
    ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Step 1: Clone or Download the Project
 
@@ -135,7 +136,7 @@ java -cp target/ai-pocket-lawyer-1.0.0.jar com.pocketlawyer.Main
 - Open the project in IntelliJ IDEA or Eclipse
 - Run `com.pocketlawyer.Main` class
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 PocketLawyer/
@@ -169,7 +170,7 @@ PocketLawyer/
 └── README.md                      # This file
 ```
 
-## 🤖 AI Implementation Details
+## AI Implementation Details
 
 ### Hybrid AI Approach
 
@@ -198,7 +199,7 @@ The chatbot uses a **3-tier intelligent matching system**:
 - ✅ **Customizable** - Easy to add more Q&A pairs
 - ✅ **Scalable** - Can be extended with external AI APIs later
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Tables
 
@@ -209,7 +210,7 @@ The chatbot uses a **3-tier intelligent matching system**:
 5. **chat_history** - User conversation history
 6. **generated_documents** - Generated document records
 
-## 🎯 Usage Guide
+##  Usage Guide
 
 ### Using the Chatbot
 
@@ -240,7 +241,7 @@ The chatbot uses a **3-tier intelligent matching system**:
 3. Click on any right to view details
 4. Read comprehensive information with legal sources
 
-## 🔧 Configuration
+##  Configuration
 
 ### Database Configuration
 
@@ -264,7 +265,7 @@ To change this, edit `DocumentGenerator.java`:
 private static final String OUTPUT_DIR = "your/custom/path/";
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Database Connection Error
 
@@ -299,7 +300,7 @@ mvn clean install -U
 1. Update Java to latest version
 2. Try different look and feel in `MainFrame.java`
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 Potential improvements for future versions:
 
@@ -312,7 +313,7 @@ Potential improvements for future versions:
 - [ ] Mobile app version
 - [ ] Cloud sync for chat history
 
-## 🤝 Contributing
+##  Contributing
 
 To add more legal content:
 
@@ -336,26 +337,15 @@ VALUES (1, 'Right Title', 'Brief description', 'Detailed info', 'Legal Act');
 2. Insert into database with fields JSON array
 3. Restart application to load new template
 
-## 📄 License
+##  License
 
 This project is created for educational purposes. Legal information provided is general guidance and should not replace professional legal advice.
 
-## ⚠️ Disclaimer
+##  Developers
 
-**IMPORTANT**: This application provides general legal information only. It is NOT a substitute for professional legal advice. For specific legal issues, please consult a qualified lawyer.
+Yuvraj Paul
+Ankit Das
+Vikram Khanna
+Disha Wadhwani
 
-## 👨‍💻 Developer
 
-Created by Vikram Khanna
-
-## 📞 Support
-
-For issues or questions:
-1. Check the troubleshooting section
-2. Review application logs
-3. Verify database connectivity
-4. Ensure all dependencies are installed
-
----
-
-**Made with ❤️ to make legal help accessible to everyone**
