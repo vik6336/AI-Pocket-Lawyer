@@ -9,9 +9,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- * Database connection manager using JDBC
- * Handles database connections and initialization
+/*
+ Database connection manager using JDBC
  */
 public class DatabaseManager {
     
@@ -42,7 +41,7 @@ public class DatabaseManager {
     
     /**
      * Get database connection
-     * Creates new connection if not exists or closed
+     * new connection if not exists or closed
      */
     public Connection getConnection() throws SQLException {
         if (connection == null || connection.isClosed()) {
