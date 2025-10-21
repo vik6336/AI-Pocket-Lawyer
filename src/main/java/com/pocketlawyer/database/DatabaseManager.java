@@ -39,9 +39,8 @@ public class DatabaseManager {
         return instance;
     }
     
-    /**
-     * Get database connection
-     * new connection if not exists or closed
+    /*
+     * new connection 
      */
     public Connection getConnection() throws SQLException {
         if (connection == null || connection.isClosed()) {
@@ -86,7 +85,6 @@ public class DatabaseManager {
     
     /**
      * Initialize database with schema
-     * This should be run once during first setup
      */
     public void initializeDatabase() {
         logger.info("Database initialization should be done by running schema.sql manually");
